@@ -1,2 +1,2 @@
-# Jagurom.github.io-potato
+# Jagurom.github.io
 Potato Landing Page
