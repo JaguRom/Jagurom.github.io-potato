@@ -1,0 +1,162 @@
+/* Theme */
+@import''
+
+:root {
+  --color-yellow: #fdf231;
+  }
+.title {
+  display: block;
+  height: 780px;
+  width 2520px;
+  background-color:hsl (0, 100%, 100%);
+  background-position: center;
+  background-image: 
+    linear-gradient(
+      115deg,
+      rgba(249,238,67, 0.2),
+      rgba(150,258,100, 0.5)
+    ),
+  url("https://freepngimg.com/thumb/potato/28-potato-png-images.png");
+  text-align: center;
+  font-family: helvetica;
+  letter-spacing: 10px;
+  font-size: 75px;
+  line-height: 1.2;
+  text-align: center;
+  top-margin: 120px;
+}
+#potato{
+hsl(0, 100%, 50%);
+}
+#header{
+  padding-top: 40px;
+  text-shadow: 5px 3px #ef12ef;
+}
+#official{
+  position: relative;
+  top: -35px;
+  margin-top: 10px;
+  padding-top: 00px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  color: #2e2e2e;
+  font-size: 38px;
+  font-family: sans-seriff;
+}
+#button{
+  letter-spacing: 1px;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 10px;
+  top-margin: 100px;
+  bottom-margin:100px;
+}
+.btn-blue {
+    justify-content: center;
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+ }
+body {
+  background-color: #f2f0c9;
+}
+.flex-container {
+  display: block;
+  margin-top: 300px;
+  margin-bottom; 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 900px;
+  bottom: 300px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-yellow);
+  url("https://freepngimg.com/thumb/potato/28-potato-png-images.png");
+  background-size: 900px;
+}
+.potatotext {
+  display: block;
+  block-size: 30px;
+  font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 970px;
+    margin-right: 950px;
+    padding-top: 0.5px;
+    padding-bottom: 30px;
+    background-color: #f3ed90;
+  }
+.cards {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 16px;
+   background-color: #f3ed90;
+   box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+   border-radius: 4px;
+   padding: 24px;
+   margin: 8px;
+   flex-grow: 1;
+   margin-left: 150px;
+   margin-right: 200px;
+   margin-top: 65px;
+   margin-bottom:200px;
+   text-align: center;
+   }
+    .potato1 {
+    background: #f8f4bc;
+    box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+}
+  .potato2 {
+    background: #f8f4bc;
+    box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+}
+  .potato3 {
+    background: #f8f4bc;
+    box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+}
+.footer{
+  display: block; 
+  height: 600.45p;
+  wth: 2520px;
+  background: #404042;
+  color: white;
+  padding: 10px 0px;
+  font-size: 18px;
+  text-align: center;
+  top-margin: 100px;
+  padding-top: 50px;
+}
